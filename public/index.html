@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Recipe Creator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>🍳 AI Recipe Creator</h1>
+    <p class="lead">Type ingredients (comma separated) or a dish name. Click Generate for a detailed recipe.</p>
+
+    <input id="inputBox" placeholder="e.g., chicken, tomatoes, garlic  — or type 'Biryani'"/>
+
+    <div class="controls">
+      <button id="fromIngredients">Generate from Ingredients</button>
+      <button id="fromDish">Generate from Dish Name</button>
+      <button id="random">Surprise me</button>
+    </div>
+
+    <pre id="output">Recipe will appear here...</pre>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
